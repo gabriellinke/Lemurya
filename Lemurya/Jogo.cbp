@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Jogo" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Jogo" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics-d" />
+					<Add library="sfml-audio-d" />
+					<Add library="sfml-network-d" />
+					<Add library="sfml-window-d" />
+					<Add library="sfml-system-d" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Jogo" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-audio" />
+					<Add library="sfml-network" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++14" />
+			<Add option="-fexceptions" />
+			<Add directory="C:/Users/Avell/Desktop/Gabriel/Faculdade/SFML-2.5.1/include" />
+		</Compiler>
+		<Linker>
+			<Add directory="C:/Users/Avell/Desktop/Gabriel/Faculdade/SFML-2.5.1/lib" />
+		</Linker>
+		<Unit filename="BolaDeFogo.cpp" />
+		<Unit filename="BolaDeFogo.h" />
+		<Unit filename="Caixa.cpp" />
+		<Unit filename="Caixa.h" />
+		<Unit filename="Collider.cpp" />
+		<Unit filename="Collider.h" />
+		<Unit filename="Entidade.cpp" />
+		<Unit filename="Entidade.h" />
+		<Unit filename="EntidadeColidivel.cpp" />
+		<Unit filename="EntidadeColidivel.h" />
+		<Unit filename="Esqueleto.cpp" />
+		<Unit filename="Esqueleto.h" />
+		<Unit filename="Fase.cpp" />
+		<Unit filename="Fase.h" />
+		<Unit filename="FaseAquatica1.cpp" />
+		<Unit filename="FaseAquatica1.h" />
+		<Unit filename="FaseAquatica2.cpp" />
+		<Unit filename="FaseAquatica2.h" />
+		<Unit filename="FaseNoturna3.cpp" />
+		<Unit filename="FaseNoturna3.h" />
+		<Unit filename="GerenciadorDeColisoes.cpp" />
+		<Unit filename="GerenciadorDeColisoes.h" />
+		<Unit filename="GerenciadorDePontuacao.cpp" />
+		<Unit filename="GerenciadorDePontuacao.h" />
+		<Unit filename="GerenciadorGrafico.cpp" />
+		<Unit filename="GerenciadorGrafico.h" />
+		<Unit filename="Inimigo.cpp" />
+		<Unit filename="Inimigo.h" />
+		<Unit filename="Lemurya.cpp" />
+		<Unit filename="Lemurya.h" />
+		<Unit filename="LemuryaPrototype.cpp" />
+		<Unit filename="LemuryaPrototype.h" />
+		<Unit filename="Lista.h" />
+		<Unit filename="ListaEntidades.cpp" />
+		<Unit filename="ListaEntidades.h" />
+		<Unit filename="ListaInimigos.cpp" />
+		<Unit filename="ListaInimigos.h" />
+		<Unit filename="ListaObstaculos.cpp" />
+		<Unit filename="ListaObstaculos.h" />
+		<Unit filename="ListaPlataformas.cpp" />
+		<Unit filename="ListaPlataformas.h" />
+		<Unit filename="ListaProjeteis.cpp" />
+		<Unit filename="ListaProjeteis.h" />
+		<Unit filename="Mago.cpp" />
+		<Unit filename="Mago.h" />
+		<Unit filename="Menu.cpp" />
+		<Unit filename="Menu.h" />
+		<Unit filename="MenuMorte.cpp" />
+		<Unit filename="MenuMorte.h" />
+		<Unit filename="MenuPause.cpp" />
+		<Unit filename="MenuPause.h" />
+		<Unit filename="MenuPrincipal.cpp" />
+		<Unit filename="MenuPrincipal.h" />
+		<Unit filename="Obstaculo.cpp" />
+		<Unit filename="Obstaculo.h" />
+		<Unit filename="Pedra.cpp" />
+		<Unit filename="Pedra.h" />
+		<Unit filename="Personagem.cpp" />
+		<Unit filename="Personagem.h" />
+		<Unit filename="Platform.cpp" />
+		<Unit filename="Platform.h" />
+		<Unit filename="Player.cpp" />
+		<Unit filename="Player.h" />
+		<Unit filename="State.cpp" />
+		<Unit filename="State.h" />
+		<Unit filename="Tritao.cpp" />
+		<Unit filename="Tritao.h" />
+		<Unit filename="Tronco.cpp" />
+		<Unit filename="Tronco.h" />
+		<Unit filename="include/Animation.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="openal32.dll" />
+		<Unit filename="sfml-audio-2.dll" />
+		<Unit filename="sfml-audio-d-2.dll" />
+		<Unit filename="sfml-graphics-2.dll" />
+		<Unit filename="sfml-graphics-d-2.dll" />
+		<Unit filename="sfml-network-2.dll" />
+		<Unit filename="sfml-network-d-2.dll" />
+		<Unit filename="sfml-system-2.dll" />
+		<Unit filename="sfml-system-d-2.dll" />
+		<Unit filename="sfml-window-2.dll" />
+		<Unit filename="sfml-window-d-2.dll" />
+		<Unit filename="src/Animation.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

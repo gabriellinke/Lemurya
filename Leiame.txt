@@ -1,0 +1,4 @@
+Sistema operacional utilizado: Windows 10
+IDE utilizada: Code::Blocks 17.12
+Compilador: MinGW
+Biblioteca Gráfica: SFML 2.5.1
